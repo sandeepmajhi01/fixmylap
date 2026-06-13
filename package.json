@@ -1,0 +1,5 @@
+{
+  "name": "lap",
+  "private":true,
+  "workspaces":["apps/*","packages/*"]
+}

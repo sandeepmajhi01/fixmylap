@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+
+@theme {
+  /* Brand */
+  --color-primary: #25B425;
+
+  /* Backgrounds */
+  --color-background: #131313;
+  --color-surface: #353535;
+
+  /* Text */
+  --color-text: #c8c6c5;
+  --color-text-light: #ffffff;
+  --color-text-accent: #bbe38f;
+
+  /* Borders */
+  --color-border: #4a4a4a;
+
+  /* Font */
+  --font-sans: "Poppins", sans-serif;
+
+  /* Animations */
+  --animate-fade-in: fade-in 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+
+/* #131313  → Main page background
+#353535  → Cards / navbar / sections
+#26C128  → Buttons / CTA / highlights
+#FFFFFF  → Headings
+#C8C6C5  → Body text
+#BBE38F  → Stats / accents / badges */
